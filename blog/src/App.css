@@ -33,9 +33,11 @@
 
 .ArticleCard{
   text-align: center;
-  padding-top: 0.5%;
+  padding-top: 0.2vh;
+  margin-top: 3vh;
   margin-left: 5%;
   margin-right: 5%;
+  border-bottom: 5px solid black;
 }
 
 .ArticleCard:hover {
@@ -53,14 +55,14 @@ nav{
   position: flex;
   align-content: center;
   justify-content: space-around;
-  border-bottom: 5px solid black;
+  border-bottom: 0.7vw solid black;
   
 }
 
 ul {  
   margin: auto;
   padding: 0;
-  margin-left: 38%;
+  margin-left: 38vw;
   justify-content: space-evenly;
 
   list-style-type: none;
@@ -72,6 +74,8 @@ li {
   float: left;
   color: black;
 }
+
+
 
 li a {
   display: block;
@@ -87,11 +91,16 @@ li a {
 
 .article{
   text-align: justify;
-  padding-top: 0.5%;
-  margin-left: 5%;
-  margin-right: 5%;
+  padding-top: 2vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
-
+.recommeded{
+  padding-top: 0.3vw;
+  text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
 .content{
     text-align: justify;
   padding-top: 0.5%;
@@ -99,14 +108,19 @@ li a {
   margin-right: 5%;
 }
 
+.comments{
+  text-align: center;
+  padding-top: 0.2vh;
+  margin-top: 3vh;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
 
 .content>h1{
   text-align: center;
 }
 
-.article>h1{
-  text-align: center;
-}
 
 
 /* Change the link color to #111 (black) on hover */
@@ -120,11 +134,12 @@ li a:hover {
   display: block;
   color: black;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
   background-color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 15px;
+  padding-bottom: 0px;
   text-decoration: none;
 }
 

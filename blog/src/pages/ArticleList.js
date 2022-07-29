@@ -7,7 +7,10 @@ const ArticleList = () => {
     return(
         <div className="content">
         <h1>Articles</h1>
-        {articleContent.map((art,key) => <p key={key}><ArticleCard name={art.name} title={art.title} /> </p> )}
+        {articleContent.map(
+            (article,key) => 
+            <span key={key}><ArticleCard article={article} /> </span> 
+            )}
         </div>
     )
 }
