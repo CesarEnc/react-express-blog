@@ -29,8 +29,6 @@ npm i
 
 ## Usage
 
-Use NPM run to build and run the projects.
-
 First set up the backend service using the following command:
 
 ```bash
