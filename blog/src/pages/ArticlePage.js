@@ -5,6 +5,8 @@ import ArticleCard from "../components/ArticleCard";
 import NotFoundPage from "./NotFoundPage";
 import Comments from "../components/Comments"
 import Upvote from "../components/Upvote"
+import AddCommentForm from "../components/AddCommentForm";
+
 
 const ArticlePage = () => {
     const [articleInfo,setArticleInfo] = useState({upvotes:0,comments:[]});
@@ -29,14 +31,14 @@ const ArticlePage = () => {
         <div className="article">
         <h1>{article.title}</h1>
 
-        <Upvote artName={name} upvotes = {articleInfo.upvotes} setArticleInfo = {(articleInfo) => setArticleInfo(articleInfo)}/>
+        <Upvote artName={name} upvotes = {articleInfo.upvotes} setArticleInfo = {setArticleInfo}/>
 
         {article.content.map((p,key)=> <p key={key}>{p}</p> )}
 
         </div>
 
         <Comments comments={articleInfo.comments}/>
-
+        <AddCommentForm artName={name} setArticleInfo = {setArticleInfo}/>
         <div className="recommeded">
         <h3>Other Articles</h3>
         {otherArticles.map(

@@ -31,6 +31,15 @@
   color: white;
 }
 
+.add-comment-form{
+  text-align: center;
+  padding-top: 0.2vh;
+  margin-top: 3vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom: 5px solid black;
+}
+
 .ArticleCard{
   text-align: center;
   padding-top: 0.2vh;
