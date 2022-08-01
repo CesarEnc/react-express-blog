@@ -1,6 +1,6 @@
 # Blog
 
-Developed a simple blog using MERN Stack. Part of the course **React.js: Building an Interface** by **Shaun Wassell**.
+Developed a simple blog using **MERN** Stack. Part of the course **React.js: Building an Interface** by **Shaun Wassell**.
 
 
 Tecnologies:
